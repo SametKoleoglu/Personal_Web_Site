@@ -16,7 +16,7 @@ const HeroSection = () => {
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                "ELİF",
+                "RABIA",
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
                 "Web Developer",
                 1000,
@@ -31,10 +31,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#adb7be] text-base sm:text-lg lg:text-xl mb-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, veniam
-            minus! Odio reiciendis hic nostrum a quis voluptates amet
-            consequatur distinctio officia, placeat adipisci autem delectus
-            iusto dicta dolor vero!
+            Merhaba, ben Rabia. Ben bir yazılımcıyım. İlgilendiğim alanlar; Web, mobil ve veri tabanları.
+            Şu anda aktif olarak öğrenciyim ve kendimi her konuda geliştirmeye çalışıyorum.
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white">
